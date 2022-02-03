@@ -1,7 +1,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-
+    borderRadius: {
+      'full': '50%',
+    },
     backgroundSize: {
       'auto': 'auto',
       'cover': 'cover',
@@ -12,6 +14,7 @@ module.exports = {
     extend: {
       width: {
         '375': '23rem',
+        
       },
       height: {
         '812': '51rem',
