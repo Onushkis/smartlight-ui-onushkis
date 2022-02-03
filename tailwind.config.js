@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     borderRadius: {
       'full': '50%',
+      
     },
     backgroundSize: {
       'auto': 'auto',
@@ -18,6 +19,7 @@ module.exports = {
       },
       height: {
         '812': '51rem',
+        '856' : '53.5rem'
       },
       colors: {
         'regal-violet': '#A693EB',
@@ -30,6 +32,7 @@ module.exports = {
         'regal-yellowtext': '#FFA939',
         'regal-bluetext': '#002D67',
         'regal-blacktext': '#393939',
+        'bg-regal-white' : '#fff',
 
 
       },
