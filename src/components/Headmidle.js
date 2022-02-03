@@ -2,15 +2,16 @@ import React from 'react'
 
 const Headmidle = () => {
     return (
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center justify-center  place-content-center text-center ">
             {/* Middlediv*/}
-
-            <div>Cotrol panel</div>
-            {/*  <span className='absolute top-1 right-1 w-3 h-3 bg-regal-yellowtext rounded-full border-2 animate-ping'></span> */}
+             <div class="text-[#fff] font-bold text-[30px]  ">Cotrol panel</div>
+            <div className='relative className="flex items-center justify-center space-x-32 place-content-center text-center "'>
+              <span className='absolute top-0 right-0 w-3 h-3  bg-regal-yellowtext rounded-full border-2 border-regal-bluebacgrounf '></span> 
             <img
                 src={require('../images/profile.jpg')}
-                className=" w-16 h-16 rounded-full object-cover "
+                className=" w-12 h-12 rounded-full object-cover border-2 "
             />
+            </div>
         </div>
     )
 }

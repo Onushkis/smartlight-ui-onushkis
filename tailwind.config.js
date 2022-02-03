@@ -3,8 +3,9 @@ module.exports = {
   theme: {
     borderRadius: {
       'full': '50%',
-      
-    },
+      },
+    
+     
     backgroundSize: {
       'auto': 'auto',
       'cover': 'cover',
@@ -21,6 +22,7 @@ module.exports = {
         '812': '51rem',
         '856' : '53.5rem'
       },
+      wordBreak:['hover','focus'],
       colors: {
         'regal-violet': '#A693EB',
         'regal-red': '#FF9B9B',
@@ -34,7 +36,7 @@ module.exports = {
         'regal-blacktext': '#393939',
         'bg-regal-white' : '#fff',
 
-
+      
       },
     },
   },
