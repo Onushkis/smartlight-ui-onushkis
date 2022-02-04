@@ -1,7 +1,6 @@
 import './App.css';
 import './components/Controlpanel';
-import {
-  BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Controlpanel from './components/Controlpanel';
 import Headertop from './components/Headertop';
 import Headmidle from './components/Headmidle';
