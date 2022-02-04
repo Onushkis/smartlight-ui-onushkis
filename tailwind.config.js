@@ -20,10 +20,12 @@ module.exports = {
         extend: {
           width: {
             '375': '23rem',
+            '25': '1.563rem'
           },
           height: {
             '812': '51rem',
             '856': '53.5rem',
+            '25': '1.563rem'
             },
           wordBreak: ['hover', 'focus'],
           colors: {
