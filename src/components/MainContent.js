@@ -66,9 +66,10 @@ const MainContent = () => {
         style={{
           width: '376px',
           height: '656px',
+          
         }}
       >
-        <div>All rooms</div>
+        <h1 class="regal-bluetext font-bold text-main">All rooms</h1>
         <div
           style={{
             display: 'grid',
@@ -81,12 +82,12 @@ const MainContent = () => {
               style={{
                 width: '150px',
                 height: '150px',
-                backgroundColor: 'grey',
+                // backgroundColor: 'grey',
               }}
             >
               <img src={room.img} width="51px" height="42px"></img>
-              <div>{room.title}</div>
-              <div>{room.lights} lights</div>
+              <div class="text regal-blacktext font-bold text-main ">{room.title} </div>
+              <div class="text text-regal-yellowtext font-bold text-small ">{room.lights} lights</div>
               <Link to={'room/' + room.link}>linkas</Link>
             </div>
           ))}

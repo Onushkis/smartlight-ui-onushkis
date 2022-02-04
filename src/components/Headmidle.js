@@ -6,7 +6,7 @@ const Headmidle = () => {
     return (
         <div className="flex items-center justify-center  place-content-center text-center ">
             {/* Middlediv*/}
-             <div class="text-[#fff] font-bold text-tiny">Cotrol panel</div>
+             <div class="text-[#fff] font-bold text-tiny">Cotrol Panel</div>
             <div className='relative className="flex items-center justify-center space-x-32 place-content-center text-center "'>
               <span className='absolute top-0 right-0 w-3 h-3  bg-regal-yellowtext rounded-full border-2 border-regal-bluebacgrounf '></span> 
             

@@ -6,6 +6,8 @@ module.exports = {
     },
     fontSize: {
       'tiny': '2rem',
+      'main': '1.188rem',
+      'small': '0.813rem',
     },
     backgroundSize: {
       'auto': 'auto',
@@ -13,6 +15,7 @@ module.exports = {
       'contain': 'contain',
       '50%': '50%',
       '16': '4rem',
+      
     },
         extend: {
           width: {
