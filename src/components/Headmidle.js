@@ -8,7 +8,7 @@ const Headmidle = () => {
             {/* Middlediv*/}
              <div class="text-[#fff] font-bold text-tiny">Cotrol Panel</div>
             <div className='relative className="flex items-center justify-center space-x-32 place-content-center text-center "'>
-              <span className='absolute top-0 right-0 w-3 h-3  bg-regal-yellowtext rounded-full border-2 border-regal-bluebacgrounf '></span> 
+              <span className='absolute top-0 right-0 w-3 h-3  bg-regal-yellowtext rounded-full border-2 animate-ping border-regal-bluebacgrounf '></span> 
             
          <img src={profileimage} className='w-16 h-16 rounded-full object-cover border-2' />
          

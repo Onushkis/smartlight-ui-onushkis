@@ -62,33 +62,44 @@ const MainContent = () => {
     <>
       <Headmidle />
       <div
-        className="bg-bg-regal-white  "
+        className="bg-bg-regal-grey "
         style={{
           width: '376px',
           height: '656px',
-          
         }}
+          
+          
       >
-        <h1 class="regal-bluetext font-bold text-main">All rooms</h1>
+        
+        <h1 class="regal-bluetext font-bold text-main ">All rooms</h1>
+
+        
         <div
           style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
+            justifyItems:'center',
+            
+            // backgroundColor: '#F6F8FB',
           }}
-        >
+          >
           {rooms.map((room) => (
             <div
               key={room.id}
               style={{
                 width: '150px',
                 height: '150px',
-                // backgroundColor: 'grey',
-              }}
-            >
-              <img src={room.img} width="51px" height="42px"></img>
-              <div class="text regal-blacktext font-bold text-main ">{room.title} </div>
-              <div class="text text-regal-yellowtext font-bold text-small ">{room.lights} lights</div>
-              <Link to={'room/' + room.link}>linkas</Link>
+                 backgroundColor: 'white',
+                 margin: '8px',
+                 borderRadius: '18px',
+                 cursor: 'pointer',
+                
+                }}
+              >
+              <div class="pl-4 mt-4"><img src={room.img} width="51px" height="42px"></img></div>
+              <div class="text regal-blacktext font-bold text-main pl-4 mt-4">{room.title} </div>
+              <div class="text text-regal-yellowtext font-bold text-small pl-4 ">{room.lights} lights</div>
+              {/* <Link to={'room/' + room.link}>linkas</Link> */}
             </div>
           ))}
         </div>
@@ -96,9 +107,13 @@ const MainContent = () => {
     </>
   )
 }
-
 export default MainContent
+                
+                
 
+
+            
+            
 
 
 

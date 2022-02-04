@@ -23,8 +23,8 @@ module.exports = {
           },
           height: {
             '812': '51rem',
-            '856': '53.5rem'
-          },
+            '856': '53.5rem',
+            },
           wordBreak: ['hover', 'focus'],
           colors: {
             'regal-violet': '#A693EB',
@@ -38,6 +38,7 @@ module.exports = {
             'regal-bluetext': '#002D67',
             'regal-blacktext': '#393939',
             'bg-regal-white': '#fff',
+            'bg-regal-grey' : '#F6F8FB',
           },
         },
       },
