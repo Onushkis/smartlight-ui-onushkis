@@ -33,7 +33,7 @@ module.exports = {
             'regal-green': '#89DD94',
             'regal-yellow': '#EBD094',
             'regal-violetbtn': '#A594EB',
-            'regal-bluebacgrounf': '#0A4DA2',
+            'regal-bluebacground': '#0A4DA2',
             'regal-yellowtext': '#FFA939',
             'regal-bluetext': '#002D67',
             'regal-blacktext': '#393939',

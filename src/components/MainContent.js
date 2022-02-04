@@ -66,12 +66,14 @@ const MainContent = () => {
         style={{
           width: '376px',
           height: '656px',
+          borderTopLeftRadius: '20px',
+          borderTopRightRadius: '20px',
         }}
           
           
       >
-        
-        <h1 class="regal-bluetext font-bold text-main ">All rooms</h1>
+        <div class="rounded-t-lg">  
+        <h1 class="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All rooms</h1>
 
         
         <div
@@ -79,6 +81,7 @@ const MainContent = () => {
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             justifyItems:'center',
+            marginTop: '2rem',
             
             // backgroundColor: '#F6F8FB',
           }}
@@ -99,9 +102,10 @@ const MainContent = () => {
               <div class="pl-4 mt-4"><img src={room.img} width="51px" height="42px"></img></div>
               <div class="text regal-blacktext font-bold text-main pl-4 mt-4">{room.title} </div>
               <div class="text text-regal-yellowtext font-bold text-small pl-4 ">{room.lights} lights</div>
-              {/* <Link to={'room/' + room.link}>linkas</Link> */}
+               {/* <Link to={'room/' + room.link}>linkas</Link>  */}
             </div>
           ))}
+        </div>
         </div>
       </div>
     </>
