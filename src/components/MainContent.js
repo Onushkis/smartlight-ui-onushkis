@@ -73,7 +73,7 @@ const MainContent = () => {
           
       >
         <div class="rounded-t-lg">  
-        <h1 class="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All rooms</h1>
+        <h1 class="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All <br /> rooms </h1>
 
         
         <div
@@ -87,7 +87,9 @@ const MainContent = () => {
           }}
           >
           {rooms.map((room) => (
+              <Link to={'room/' + room.link}>
             <div
+            
               key={room.id}
               style={{
                 width: '150px',
@@ -99,11 +101,14 @@ const MainContent = () => {
                 
                 }}
               >
+              
               <div class="pl-4 mt-4"><img src={room.img} width="51px" height="42px"></img></div>
               <div class="text regal-blacktext font-bold text-main pl-4 mt-4">{room.title} </div>
               <div class="text text-regal-yellowtext font-bold text-small pl-4 ">{room.lights} lights</div>
-               {/* <Link to={'room/' + room.link}>linkas</Link>  */}
+             
+
             </div>
+            </Link> 
           ))}
         </div>
         </div>

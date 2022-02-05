@@ -25,7 +25,8 @@ module.exports = {
           height: {
             '812': '51rem',
             '856': '53.5rem',
-            '25': '1.563rem'
+            '25': '1.563rem',
+            '67': '4.188',
             },
           wordBreak: ['hover', 'focus'],
           colors: {
