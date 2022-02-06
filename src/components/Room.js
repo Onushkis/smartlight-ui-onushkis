@@ -7,12 +7,14 @@ const Room = () => {
     const {title} = useParams();
     const [opacity, setOpacity] = useState(1);
     const [lightColor, setLightColor] = useState('yellow');
+    const [btnColor, setbtnColor] = useState('#fff');
+
 
   return (
     <div>
       
-      <Headerroom  opacity={opacity} lightColor={lightColor}/>
-      <Mainroom  opacity={opacity} setOpacity={setOpacity} lightColor={lightColor} setLightColor={setLightColor}/>
+      <Headerroom  opacity={opacity} lightColor={lightColor} btnColor={btnColor}/>
+      <Mainroom  opacity={opacity} setOpacity={setOpacity} lightColor={lightColor} setLightColor={setLightColor} btnColor={btnColor} setbtnColor={setbtnColor}/>
      
     </div>
   )
