@@ -62,18 +62,17 @@ const MainContent = () => {
     <>
       <Headmidle />
       <div
-        className="bg-bg-regal-grey "
+        className="bg-bg-regal-grey w-full"
         style={{
-          width: '376px',
           height: '656px',
-          borderTopLeftRadius: '20px',
-          borderTopRightRadius: '20px',
+          borderTopLeftRadius: '25px',
+          borderTopRightRadius: '25px',
         }}
           
           
       >
         <div class="rounded-t-lg">  
-        <h1 class="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All <br /> rooms </h1>
+        <h1 class="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All rooms </h1>
 
         
         <div
@@ -94,6 +93,8 @@ const MainContent = () => {
               style={{
                 width: '150px',
                 height: '150px',
+                paddingTop: '5px',
+                paddingLeft: '3px',
                  backgroundColor: 'white',
                  margin: '8px',
                  borderRadius: '18px',

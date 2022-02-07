@@ -3,10 +3,10 @@ import profileimage from '../images/profile.jpg'
 
 const Headmidle = () => {
   return (
-    <div className="flex items-center justify-center  place-content-center text-center ">
+    <div className='flex justify-between w-full px-4'>
       {/* Middlediv*/}
-      <div className="flex space-x-32 py-14" > 
-      <div class="text-[#fff] font-bold text-tiny">Control Panel</div>
+      <div className="flex justify-between space-x-28 py-10 items-center" > 
+      <div class="text-[#fff] font-bold text-tiny">Control <br /> Panel</div>
       <div className='relative '>
         <span className="absolute top-0 right-0 w-3 h-3  bg-regal-yellowtext rounded-full border-2 g border-regal-bluebacground "></span>
         <img

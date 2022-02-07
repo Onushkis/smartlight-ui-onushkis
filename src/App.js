@@ -10,7 +10,7 @@ import Room from './components/Room';
 
 function App() {
   return (
-   <div className='bg-regal-bluebacground  grid items-center justify-center '>
+   <div className='bg-regal-bluebacground grid justify-items-center  place-content-center justify-center w-378'>
    <Router> 
 
 <Headertop />

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import lightopacity from '../images/lightopacity.png'
+import poweroff from '../images/poweroff.png'
+
 
 const Mainroom = (props) => {
   const opacity = props.opacity
@@ -47,22 +49,23 @@ const Mainroom = (props) => {
 
   return (
     <div
-    className="bg-bg-regal-grey "
+    className="bg-bg-regal-grey  w-full h-539"
     style={{
-      width: '376px',
-      
-      borderTopLeftRadius: '20px',
-      borderTopRightRadius: '20px',
+    //   width: '376px',
+      borderTopLeftRadius: '25px',
+      borderTopRightRadius: '25px',
+      alignContent:'center',
     }}
-      
       
   >
       <div>
         <div>Intensity </div>
-        <div>
+        <div className='absolute right-6 -my-10
+'> <img src={poweroff} width='34px' height='34px'  /> </div>
+        <div class='flex justify-self-center  items-center  justify-center'>
           <div>
-            <img src={lightopacity} width="51px" height="42px"></img>
-            lightopacity
+            <img src={lightopacity} width="17px" height="23px"></img>
+         
           </div>
 
           <div>
@@ -76,14 +79,14 @@ const Mainroom = (props) => {
            
           </div>
           <div>
-            <img src={lightopacity} width="51px" height="42px"></img>
+            <img src={lightopacity} width="17px" height="23px"></img>
           </div>
         </div>
       </div>
-      <div>
+      <div >
         <div>Colors</div>
 
-        <div>
+        <div class='flex justify-self-center  items-center  justify-center'>
           {colorsArray.map((color) => (
             <div
               className="lamplight"
@@ -96,6 +99,7 @@ const Mainroom = (props) => {
               }}
             ></div>
           ))}
+
 
           <div
             className="lamplight"
@@ -111,9 +115,11 @@ const Mainroom = (props) => {
         </div>
       </div>
       <div>
+      
+      
         <div>Scenes</div>
         
-            <div className='btn'> 
+            <div class='grid grid-cols-2 gap-4 justify-items-center '> 
              {arraybtn.map((color) => ( 
 
                 <button
