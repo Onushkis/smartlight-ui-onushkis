@@ -8,6 +8,7 @@ module.exports = {
       'tiny': '2rem',
       'main': '1.188rem',
       'small': '0.813rem',
+      'overskrift':'1.875rem',
     },
     backgroundSize: {
       'auto': 'auto',
@@ -29,7 +30,7 @@ module.exports = {
             '67': '4.188rem',
             '539': '33.688rem',
             '270': '16.875rem',
-            '200': '12.5rem',
+            '200': '16.875rem',
             
             },
           wordBreak: ['hover', 'focus'],
