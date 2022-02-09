@@ -6,7 +6,9 @@ import { AiOutlineBulb  } from 'react-icons/ai';
 
 
 const Footer = () => {
-  // throw new Error('OPPPS')
+
+  
+  //  throw new Error('OPPPS')
   return (
     <div className=' flex items-center space-x-12 justify-center bg-bg-regal-white text-[#578CD0]   w-full h-67 '>
 

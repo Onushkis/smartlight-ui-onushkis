@@ -62,7 +62,7 @@ const Mainroom = (props) => {
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Intensity </div>
         <div className='absolute right-6 -my-10 -mt-14'>
            <img src={poweroff} width='34px' height='34px'  /> </div>
-        <div class='flex justify-self-center  items-center  justify-center'>
+        <div className='flex justify-self-center  items-center  justify-center'>
           <div>
             <img src={lightopacity} width="17px" height="23px"></img>
          
@@ -87,9 +87,11 @@ const Mainroom = (props) => {
       <div >
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Colors</div>
 
-        <div class='flex justify-self-center  items-center  justify-center'>
-          {colorsArray.map((color) => (
+        <div className='flex justify-self-center  items-center  justify-center'>
+          {colorsArray.map(([color],index) => (
+           
             <div
+            key={index}
               className="lamplight"
               onClick={() => setLightColor(color)}
               style={{
@@ -120,7 +122,7 @@ const Mainroom = (props) => {
       
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Scenes</div>
         
-            <div class='grid grid-cols-2 gap-4 justify-items-center '> 
+            <div className='grid grid-cols-2 gap-4 justify-items-center '> 
              {arraybtn.map((color) => ( 
 
                 <button

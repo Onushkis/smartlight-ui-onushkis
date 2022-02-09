@@ -71,8 +71,8 @@ const MainContent = () => {
           
           
       >
-        <div class="rounded-t-lg">  
-        <h1 class="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All rooms </h1>
+        <div className="rounded-t-lg">  
+        <h1 className="text text-regal-bluetext regal-y font-bold text-main pl-4 mt-4 ">All rooms </h1>
 
         
         <div
@@ -103,9 +103,9 @@ const MainContent = () => {
                 }}
               >
               
-              <div class="pl-4 mt-4"><img src={room.img} width="51px" height="42px"></img></div>
-              <div class="text regal-blacktext font-bold text-main pl-4 mt-4">{room.title} </div>
-              <div class="text text-regal-yellowtext font-bold text-small pl-4 ">{room.lights} lights</div>
+              <div className="pl-4 mt-4"><img src={room.img} width="51px" height="42px"></img></div>
+              <div className="text regal-blacktext font-bold text-main pl-4 mt-4">{room.title} </div>
+              <div className="text text-regal-yellowtext font-bold text-small pl-4 ">{room.lights} lights</div>
              
 
             </div>

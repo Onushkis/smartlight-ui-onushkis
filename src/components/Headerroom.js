@@ -85,9 +85,9 @@ const Headerroom = (props) => {
         </div>
         <div className='flex justify-self-center space-x-4  overflow-hidden w-full' >
 
-          {btnLightTypes.map((btnlighttype) => (
+          {btnLightTypes.map((btnlighttype,index) => (
             <button
-
+            key={index}
               style={{
                 display: 'flex',
                 alignItems: 'center',
