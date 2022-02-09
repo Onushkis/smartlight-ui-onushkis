@@ -59,7 +59,7 @@ const Mainroom = (props) => {
       
   >
       <div>
-        <div className='text-main font-bold p-[0.5em]'>Intensity </div>
+        <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Intensity </div>
         <div className='absolute right-6 -my-10 -mt-14'>
            <img src={poweroff} width='34px' height='34px'  /> </div>
         <div class='flex justify-self-center  items-center  justify-center'>
@@ -75,6 +75,7 @@ const Mainroom = (props) => {
               max="1"
               step="0.01"
               onChange={opacityChange}
+              
             ></input>
            
           </div>
@@ -84,7 +85,7 @@ const Mainroom = (props) => {
         </div>
       </div>
       <div >
-        <div className='text-main font-bold p-[0.5em]'>Colors</div>
+        <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Colors</div>
 
         <div class='flex justify-self-center  items-center  justify-center'>
           {colorsArray.map((color) => (
@@ -117,7 +118,7 @@ const Mainroom = (props) => {
       <div>
       
       
-        <div className='text-main font-bold p-[0.5em]'>Scenes</div>
+        <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Scenes</div>
         
             <div class='grid grid-cols-2 gap-4 justify-items-center '> 
              {arraybtn.map((color) => ( 
