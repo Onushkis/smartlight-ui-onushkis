@@ -10,6 +10,8 @@ class ErrorBoundary extends React.Component {
         // errorService.log({ error, errorInfo });
     }
     render() {
+
+        //---------Error message
         if (this.state.hasError) {
             return <img src={errorimg} />;
         }
