@@ -88,10 +88,10 @@ const Mainroom = (props) => {
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Colors</div>
 
         <div className='flex justify-self-center  items-center  justify-center'>
-          {colorsArray.map(([color],index) => (
+          {colorsArray.map((color) => (
            
             <div
-            key={index}
+            
               className="lamplight"
               onClick={() => setLightColor(color)}
               style={{

@@ -41,12 +41,14 @@ const Headerroom = (props) => {
 
   return (
     
+    
     <div className='flex justify-between w-full px-4 '>
       <div className="grid justify-between  py-10 items-center ">
       <div className='flex w-full  justify-between h-200'> 
         <div>
           <div className='flex items-center text-[#fff] text-overskrift'> <BsArrowLeftShort /> BedRoom </div>
           <div className='text-[#FFD239]'>4 lights</div>
+          
         </div>
         <div>
           <div 
