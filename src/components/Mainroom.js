@@ -150,16 +150,16 @@ const Mainroom = (props) => {
                     ))}
             
             </div>
+      </div>
+    </div>
+  )
+}
             
+export default Mainroom
             
           
                     
             
 
         
-      </div>
-    </div>
-  )
-}
 
-export default Mainroom

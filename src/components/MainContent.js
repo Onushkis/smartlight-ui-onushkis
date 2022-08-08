@@ -1,7 +1,7 @@
 import React from 'react'
 import { Router } from 'react-router-dom'
-import Headmidle from './Headmidle'
 import { Link } from 'react-router-dom'
+import Headmidle from './Headmidle'
 import bedroomimage from '../images/bedroom.jpg'
 import livingroomimage from '../images/livingroom.jpg'
 import kitchenimage from '../images/kitchen.jpg'

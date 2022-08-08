@@ -14,6 +14,7 @@ class ErrorBoundary extends React.Component {
         //---------Error message
         if (this.state.hasError) {
             return <img src={errorimg} />;
+           <h1> EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRR</h1>
         }
         return this.props.children;
     }  
