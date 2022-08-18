@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import lightopacity from '../images/lightopacity.png'
 import poweroff from '../images/poweroff.png'
 import Color from './Color'
+import Brightness from './Brightness'
+import "rc-slider/assets/index.css";
+
 
 
 const Mainroom = (props) => {
@@ -59,32 +62,45 @@ const Mainroom = (props) => {
       }}
 
     >
+
+      {/* OPACITY */}
       <div>
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Intensity </div>
-        <div className='absolute right-6 -my-10 -mt-14'>
-          <img src={poweroff} width='34px' height='34px' /> </div>
-        <div className='flex justify-self-center  items-center  justify-center'>
-          <div>
+        
+
+
+        {/* <div className='flex justify-self-center  items-center  justify-center'> */}
+
+
+          {/* <div>
             <img src={lightopacity} width="17px" height="23px"></img>
 
-          </div>
+          </div> */}
 
           <div>
-            <input
+            {/* <input
               type="range"
               min="0"
               max="1"
               step="0.01"
               onChange={opacityChange}
 
-            ></input>
+            ></input> */}
+             <Brightness/>
 
           </div>
-          <div>
+
+
+
+          {/* <div>
             <img src={lightopacity} width="17px" height="23px"></img>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
+
       </div>
+
+
+      {/* COLORS */}
       <div >
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Colors</div>
 
@@ -105,7 +121,7 @@ const Mainroom = (props) => {
           ))} */}
 
 
-          <div className='Colours'>
+          <div className='flex justify-self-center  items-center  justify-center'>
             <Color r="0" g="255" b="255" />
             <Color r="148" g="0" b="211" />
             <Color r="244" g="250" b="41" />
@@ -116,10 +132,7 @@ const Mainroom = (props) => {
           <div
             className="lamplight"
             style={{
-              height: '25px',
-              width: '25px',
-              borderRadius: '50%',
-              backgroundColor: '#fff',
+              
               opacity: opacity,
             }}
           ></div>

@@ -7,6 +7,8 @@ import Headmidle from './components/Headmidle';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import Room from './components/Room';
+import "rc-slider/assets/index.css";
+
 
 function App() {
    return (
