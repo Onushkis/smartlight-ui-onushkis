@@ -9,27 +9,27 @@ import Footer from './components/Footer';
 import Room from './components/Room';
 
 function App() {
-  return (
-   <div className='bg-regal-bluebacground grid justify-items-center  place-content-center justify-center w-378 absolute -z-10'>
-   
-   <Router> 
+   return (
+      <div className='bg-regal-bluebacground grid justify-items-center  place-content-center justify-center w-378 absolute -z-10'>
 
-<Headertop />
-<Routes>
-<Route path="/" element={<MainContent />} />
-<Route path="room" element={<Room />} >
-    <Route path=":title" element={<Room />} /> 
-    </Route>
+         <Router>
 
- </Routes>
+            <Headertop />
+            <Routes>
+               <Route path="/" element={<MainContent />} />
+               <Route path="room" element={<Room />} >
+                  <Route path=":title" element={<Room />} />
+               </Route>
 
-< Footer />
-   </Router>
+            </Routes>
+
+            < Footer />
+         </Router>
 
 
 
-   </div>
- )
+      </div>
+   )
 
- }
+}
 export default App;
