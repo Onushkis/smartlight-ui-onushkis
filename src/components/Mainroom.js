@@ -69,7 +69,7 @@ const Mainroom = (props) => {
         
 
 
-        {/* <div className='flex justify-self-center  items-center  justify-center'> */}
+         <div className='flex justify-self-center  items-center  justify-center'> 
 
 
           {/* <div>
@@ -119,7 +119,7 @@ const Mainroom = (props) => {
               }}
             ></div>
           ))} */}
-
+</div>
 
           <div className='flex justify-self-center  items-center  justify-center'>
             <Color r="0" g="255" b="255" />
@@ -176,6 +176,7 @@ const Mainroom = (props) => {
     </div>
   )
 }
+
 
 export default Mainroom
 
