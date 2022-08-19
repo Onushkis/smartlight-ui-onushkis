@@ -4,6 +4,8 @@ import poweroff from '../images/poweroff.png'
 import Color from './Color'
 import Brightness from './Brightness'
 import "rc-slider/assets/index.css";
+import Poveroff from './Poveroff'
+// import Poveroff from './Poveroff'
 
 
 
@@ -67,7 +69,11 @@ const Mainroom = (props) => {
       <div>
         <div className='text-main font-bold text-[#002D67] p-[0.5em]'>Intensity </div>
         
-
+        <div className='absolute right-6 -my-10 -mt-14'>
+          
+           
+           <Poveroff/>
+           </div>
 
          <div className='flex justify-self-center  items-center  justify-center'> 
 
